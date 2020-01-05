@@ -1,0 +1,160 @@
+/**** ADDING THE WISDOM SCRIPT FONT ****/
+
+@font-face {
+    font-family: wisdom;
+    src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+
+/**** BASE STYLE ****/
+
+body {
+    background: url('../img/background.png') cover;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/**** GRID ****/
+
+.full-width {
+    width: 1200px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+/**** HEADER ****/
+
+header {
+    height: 400px;
+}
+
+header h1 {
+    font-size: 30px;
+    line-height: 23px;
+    padding: 20px 25px 20px 0;
+}
+
+header span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-style: bold;
+    line-height: 23px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#gallery {
+    border-top: 5px solid #77a466;
+    border-bottom: 5px solid #77a466;
+    width: 1200px;
+}
+
+
+/**** ABOUT SECTION ****/
+
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-style: bold;
+    line-height: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+
+/**** CONTENT SECTION ****/
+
+#content {
+    text-align: left;
+}
+
+#content h3 {
+    font-size: 12px;
+    font-style: bold;
+    line-height: 25px;
+}
+
+#menu,
+#reviews,
+#locations {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 210px;
+    width: 375px;
+}
+
+#menu p {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+#reviews,
+#locations {
+    border-left: 1px dotted gray;
+    padding-left: 30px;
+}
+
+#reviews p {
+    font-size: 16ps;
+    line-height: 21px;
+    padding-right: 60px;
+}
+
+#locations p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/**** FOOTER ****/
+
+footer {
+    clear: both;
+    font-size: 16px;
+    font-style: bold;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'wisdom';
+    text-transform: lowercase;
+}
